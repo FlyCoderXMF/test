@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Withdraw"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/isOrNo"
+        android:layout_width="219dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="120dp"
+        android:text="对方请求悔棋，是否同意？"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="18sp" />
+
+    <Button
+        android:id="@+id/agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="43dp"
+        android:text="同意"
+        app:layout_constraintEnd_toStartOf="@+id/disagree"
+        app:layout_constraintTop_toBottomOf="@+id/isOrNo" />
+
+    <Button
+        android:id="@+id/disagree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拒绝"
+        app:layout_constraintBaseline_toBaselineOf="@+id/agree"
+        app:layout_constraintEnd_toEndOf="@+id/isOrNo" />
+</android.support.constraint.ConstraintLayout>

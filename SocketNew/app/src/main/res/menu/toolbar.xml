@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/again"
+        android:title="再来一局"/>
+
+    <item android:title="music" app:showAsAction="always" android:id="@+id/music" android:icon="@drawable/music"/>
+
+    <item android:title="请求悔棋" app:showAsAction="never" android:id="@+id/withdraw"/>
+</menu>

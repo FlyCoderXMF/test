@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_switch_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/switchpic"
+    tools:context=".Switch_main">
+
+    <Button
+        android:id="@+id/btn_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:text="服务端（执白先手）"
+        android:textColor="#6f86ac"
+        android:textSize="20dp"
+        android:background="#c9daf8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="客户端（执黑后手）"
+        android:textColor="#6f86ac"
+        android:textSize="20dp"
+        android:background="#c9daf8"
+        app:layout_constraintStart_toStartOf="@+id/btn_server"
+        app:layout_constraintTop_toBottomOf="@+id/btn_server" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        android:text="请选择"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_server"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

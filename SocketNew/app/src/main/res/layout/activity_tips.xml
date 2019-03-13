@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tips">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="12dp"
+        android:text="本游戏为双人对战五子棋，可以通过在同一wifi下联机，或者一个手机接入另一个手机的热点来联机。点击进入游戏后，若在同一wifi下，任一手机选择服务端，另一手机选择客户端，作为服务端的手机先点击连接按钮等待连接，作为客户端的手机需要先输入对方的ip地址，可以在手机的WLAN设置中查看，输入后再点击连接按钮，若出现连接成功的提示消息，即可开始游戏。若选择热点联机，则开热点的手机作为服务端，接入的手机作为客户端，其余操作和前述相同。本游戏同时支持同步聊天以及悔棋，再来一局，背景音乐等操作。游戏愉快！"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
